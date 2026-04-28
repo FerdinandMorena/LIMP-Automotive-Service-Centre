@@ -45,6 +45,14 @@ export function Navbar() {
       });
     }
     setIsMobileMenuOpen(false);
+
+    if (window.history.replaceState) {
+      window.history.replaceState(
+        null,
+        "",
+        window.location.pathname + window.location.search,
+      );
+    }
   };
 
   return (
