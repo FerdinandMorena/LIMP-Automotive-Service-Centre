@@ -111,7 +111,7 @@ export function QuoteForm() {
   }
 
   return (
-    <section id="quote" className="relative py-24">
+    <section id="quote" className="relative overflow-hidden py-24">
       {/* Background */}
       <div className="absolute inset-0">
         <div className="absolute left-1/4 top-1/4 h-96 w-96 rounded-full bg-primary/5 blur-[120px]" />
